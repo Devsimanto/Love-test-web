@@ -1,0 +1,6 @@
+{
+  "name": "Secret Love Letter & 25 Clicks Prank",
+  "description": "একটি রোমান্টিক সিক্রেট লাভ লেটার ও ২৫ বার 'I love you' খোঁজার লাইভ ট্র্যাকিং প্র্যাঙ্ক অ্যাপ। এডমিন লাইভ দেখবে লাভ মিটার, মিমস ও স্কোর!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

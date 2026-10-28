@@ -1,0 +1,76 @@
+{
+  "xhf3zvz5": {
+    "id": "xhf3zvz5",
+    "adminToken": "uckv8kntpya",
+    "recipientName": "অনন্যা",
+    "senderName": "অর্ঘ্য",
+    "secretMessage": "ভালোবাসি তোমাকে!",
+    "theme": "romantic_rose",
+    "targetClicks": 25,
+    "currentClicks": 1,
+    "percentage": 0,
+    "status": "rejected",
+    "createdAt": 1793195676148,
+    "lastActive": 1793195696022,
+    "isOnline": true,
+    "events": [
+      {
+        "id": "epkfe5",
+        "type": "click_hate",
+        "count": 1,
+        "percentage": 0,
+        "timestamp": 1793195696022,
+        "message": "💔 I hate you তে ক্লিক করেছে! ভালোবাসা ০% এ নেমে গেছে!"
+      },
+      {
+        "id": "cal0kt",
+        "type": "click_love",
+        "count": 1,
+        "percentage": 4,
+        "timestamp": 1793195690473,
+        "message": "1/25 বার I love you ক্লিক করেছে (4%)"
+      },
+      {
+        "id": "pctbzx",
+        "type": "opened",
+        "count": 0,
+        "percentage": 0,
+        "timestamp": 1793195676148,
+        "message": "চিঠি তৈরি করা হয়েছে।"
+      }
+    ]
+  },
+  "3d41b675": {
+    "id": "3d41b675",
+    "adminToken": "un40nnrxzmb",
+    "recipientName": "পরীক্ষা",
+    "senderName": "টেস্টার",
+    "secretMessage": "সবকিছু ঠিকঠাক কাজ করছে!",
+    "theme": "romantic_rose",
+    "targetClicks": 25,
+    "currentClicks": 1,
+    "percentage": 4,
+    "status": "pending",
+    "createdAt": 1793197109524,
+    "lastActive": 1793197116550,
+    "isOnline": true,
+    "events": [
+      {
+        "id": "tqoy1k",
+        "type": "click_love",
+        "count": 1,
+        "percentage": 4,
+        "timestamp": 1793197116550,
+        "message": "1/25 বার I love you ক্লিক করেছে (4%)"
+      },
+      {
+        "id": "vsak2w",
+        "type": "opened",
+        "count": 0,
+        "percentage": 0,
+        "timestamp": 1793197109524,
+        "message": "চিঠি তৈরি করা হয়েছে।"
+      }
+    ]
+  }
+}

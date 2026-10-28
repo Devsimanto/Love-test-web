@@ -1,0 +1,35 @@
+{
+  "entities": {
+    "Letter": {
+      "title": "Letter",
+      "description": "A secret love letter with 25 clicks challenge and live tracker",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "adminToken": { "type": "string" },
+        "recipientName": { "type": "string" },
+        "senderName": { "type": "string" },
+        "secretMessage": { "type": "string" },
+        "theme": { "type": "string" },
+        "targetClicks": { "type": "number" },
+        "currentClicks": { "type": "number" },
+        "percentage": { "type": "number" },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "in_progress", "unlocked", "rejected"]
+        },
+        "createdAt": { "type": "number" },
+        "lastActive": { "type": "number" },
+        "isOnline": { "type": "boolean" },
+        "events": { "type": "array" }
+      },
+      "required": ["id", "recipientName", "senderName", "secretMessage", "targetClicks", "status"]
+    }
+  },
+  "firestore": {
+    "/letters/{letterId}": {
+      "schema": "Letter",
+      "description": "Collection of secret love letters"
+    }
+  }
+}
